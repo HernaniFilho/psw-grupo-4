@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import itemsLoja from '../data/itemsLoja.json';
 import {CarrinhoContext} from '../../context/CarrinhoContext.js';
-import './home.css';
+import './home.scss';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import Header from '../Header/header.jsx';

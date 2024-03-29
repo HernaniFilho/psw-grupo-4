@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+
 
 import Home_page from './components/home/home.jsx';
 import Login_page from './components/Login/Login.jsx';
 import Register_page from './components/cadastro/cadastro.jsx';
 
-import './index.css';
 
 import {
   createBrowserRouter,
