@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import itemsLoja from '../components/data/itemsLoja.json';
 
-export const CarrinhoContext = createContext()
+export const CarrinhoContext = createContext(null)
 
 function getCarrinhoDefault() {
     let carrinho = {}
